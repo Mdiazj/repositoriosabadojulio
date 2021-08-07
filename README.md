@@ -1,4 +1,15 @@
 # repositoriosabadojulio
 
+public class ejercicio3 {
+    public static void main (String args[]){
+        Scanner input = new Scanner (System.in);
+        System.out.println("Ingrese un numero: ");
+        int num = input.nextInt();
 
-estamos en la clase 8
+        int duplicar = calcularDoble (num);
+        System.out.println("El doble del numero es: " + duplicar);
+    }
+       public static int calcularDoble (int num){
+        return num * 2;
+       }
+}
