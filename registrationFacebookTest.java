@@ -38,18 +38,7 @@ public class registrationFacebookTest {
         Select dropdownDias = new Select(elementoDias);
         dropdownDias.selectByValue("26");
 
-        /*
 
-        WebElement elementoMeses = driver.findElement(By.name("birthday_month"));
-        Select dropdownMeses = new Select(elementoMeses);
-        dropdownDias.selectByVisibleText("jun");
-
-
-        WebElement Years = driver.findElement(By.id("birthday_year"));
-        Select dropdownYears = new Select(Years);
-        dropdownDias.selectByValue("1980");
-
-         */
 
         driver.findElement(By.name("birthday_month")).sendKeys("jun");
         driver.findElement(By.name("birthday_year")).sendKeys("1980");
